@@ -19,10 +19,9 @@ $yellow: #FFF500;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
-#doc {
-    visibility: hidden;
-}
+
 html {
     width: 100vw;
     overflow-x: hidden;
@@ -518,7 +517,6 @@ footer {
     }
 
 }
-
 
 
 /* Desktop */

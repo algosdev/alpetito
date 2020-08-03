@@ -50,5 +50,5 @@ else {
 function whenOnload() {
   console.log("Loaded");
   document.querySelector(".preload-cont").style.display = "none";
-  document.querySelector("body").style.overflow = "visible";
+  document.querySelector("body").style.position = "relative";
 }
